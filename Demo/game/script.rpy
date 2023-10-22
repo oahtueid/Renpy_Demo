@@ -3,10 +3,10 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define m = Character("Tôi")
+define m = Character("Chi")
 define uk = Character("???")
 define t = Character("Trực", image="truc.png")
-define h = Character("Hồng")
+define h = Character("Hồng", image="hong.png")
 
 
 image black = "#000"
@@ -210,132 +210,132 @@ label start:
     
     # "Tôi vẫn còn thấy oải khi nhớ về bài tập tối qua. Ugh. Làm ơn đừng có thêm mà"
 
-    scene courtyard with moveinright
+#     scene courtyard with moveinright
 
-    "Áo khoác tôi mặc ngoài để che nắng bắt đầu bốc mùi mồ hôi. 
-    Nhưng tôi chưa thể vào lớp được, tôi còn cần ghé qua căn tin mua đồ ăn sáng đã."
+#     "Áo khoác tôi mặc ngoài để che nắng bắt đầu bốc mùi mồ hôi. 
+#     Nhưng tôi chưa thể vào lớp được, tôi còn cần ghé qua căn tin mua đồ ăn sáng đã."
 
-    "Đi vội tới căn tin trong khi vác theo máy tính trong cặp, tôi chảy mồ hôi dù đang đi dưới bóng mát." 
-    "Tôi thắc mắc tại sao tôi không dành thời gian thêm để tập thể dục." 
-    "Tôi không phải con trai, 
-    nhưng chả có gì là sai khi luyện tập tăng cơ bắp cả. Nếu tôi nhớ không nhầm thì trường có câu lạc bộ Taekwondo, 
-    tham gia để rèn luyện cơ thể hay kiếm điểm rèn luyện cũng được." 
+#     "Đi vội tới căn tin trong khi vác theo máy tính trong cặp, tôi chảy mồ hôi dù đang đi dưới bóng mát." 
+#     "Tôi thắc mắc tại sao tôi không dành thời gian thêm để tập thể dục." 
+#     "Tôi không phải con trai, 
+#     nhưng chả có gì là sai khi luyện tập tăng cơ bắp cả. Nếu tôi nhớ không nhầm thì trường có câu lạc bộ Taekwondo, 
+#     tham gia để rèn luyện cơ thể hay kiếm điểm rèn luyện cũng được." 
 
-    scene canteen with moveinright
+#     scene canteen with moveinright
     
-    "Tôi cuối cùng cũng đã tới căn tin trường."
+#     "Tôi cuối cùng cũng đã tới căn tin trường."
     
-    "Căn tin trường nằm ở phía bên trái tính từ cổng chính đi vào và ngược hướng hoàn toàn với bãi gửi xe, nên việc đi bộ qua đây khá mất công."
+#     "Căn tin trường nằm ở phía bên trái tính từ cổng chính đi vào và ngược hướng hoàn toàn với bãi gửi xe, nên việc đi bộ qua đây khá mất công."
     
-    "Tôi thấy một hàng người chờ thu ngân ngay khi đi vào căn tin. Vậy là tôi vẫn phải chờ một lúc."
+#     "Tôi thấy một hàng người chờ thu ngân ngay khi đi vào căn tin. Vậy là tôi vẫn phải chờ một lúc."
     
-    "Tôi xem xét việc nên mua gì. "
+#     "Tôi xem xét việc nên mua gì. "
     
-    "Chắc giờ tôi mua cái bánh mì hay cái bánh bao rồi đi lên lớp luôn quá. 
-    Tôi cũng chả ngại việc tới muộn nhưng giờ tôi đang rất nóng mà căn tin họ chỉ gắn quạt chứ chả lắp máy lạnh, 
-    chỉ có lớp học là lắp máy lạnh thôi. Tôi không muốn ở lại đây lâu."
+#     "Chắc giờ tôi mua cái bánh mì hay cái bánh bao rồi đi lên lớp luôn quá. 
+#     Tôi cũng chả ngại việc tới muộn nhưng giờ tôi đang rất nóng mà căn tin họ chỉ gắn quạt chứ chả lắp máy lạnh, 
+#     chỉ có lớp học là lắp máy lạnh thôi. Tôi không muốn ở lại đây lâu."
     
-    uk "Uhm Chi này, bà có muốn đi lên trước không?"
+#     uk "Uhm Chi này, bà có muốn đi lên trước không?"
     
-    "Trong khi tôi đang bận suy nghĩ thì người đứng trước tôi trong hàng đợi bắt chuyện."
+#     "Trong khi tôi đang bận suy nghĩ thì người đứng trước tôi trong hàng đợi bắt chuyện."
     
-    show truc
+#     show truc
 
-    "Đó là một thanh niên nam, không quá cao hay quá thấp, tóc ngắn và đeo kính. 
-    Tôi nhìn vào mặt anh chàng này, cố nhớ xem mình đã từng gặp anh ta ở đâu chưa. 
-    Mặt thon và da hơi đen, mặc áo trắng. Hình như đúng là tôi đã thấy anh ta ở đâu rồi."
+#     "Đó là một thanh niên nam, không quá cao hay quá thấp, tóc ngắn và đeo kính. 
+#     Tôi nhìn vào mặt anh chàng này, cố nhớ xem mình đã từng gặp anh ta ở đâu chưa. 
+#     Mặt thon và da hơi đen, mặc áo trắng. Hình như đúng là tôi đã thấy anh ta ở đâu rồi."
     
-    m "Ờ... Ông hình như học chung lớp với tôi đúng không?"
+#     m "Ờ... Ông hình như học chung lớp với tôi đúng không?"
     
-    hide truc
-    show truc happy
+#     hide truc
+#     show truc happy
 
-    uk "Đúng rồi á!"
+#     uk "Đúng rồi á!"
     
-    "Anh chàng trả lời giọng hưng phấn. Việc tôi nhận ra anh có vẻ làm anh vui sướng lắm. 
-    Tôi thì chỉ nhớ mang máng mình từng thấy một người như anh ngồi chung trong lớp học. 
-    Ngồi cách nhau tận hai dãy bàn mà cả hai cũng chưa từng bắt chuyện với nhau bao giờ."
+#     "Anh chàng trả lời giọng hưng phấn. Việc tôi nhận ra anh có vẻ làm anh vui sướng lắm. 
+#     Tôi thì chỉ nhớ mang máng mình từng thấy một người như anh ngồi chung trong lớp học. 
+#     Ngồi cách nhau tận hai dãy bàn mà cả hai cũng chưa từng bắt chuyện với nhau bao giờ."
     
-    m "Um, ông muốn nhường tôi lên trước hả? Thôi không cần đâu, ông cứ đứng trước đi, tôi chờ được mà."
+#     m "Um, ông muốn nhường tôi lên trước hả? Thôi không cần đâu, ông cứ đứng trước đi, tôi chờ được mà."
     
-    "Tôi thật sự không muốn đứng chờ ở đây đâu, nhưng ai mà biết ý định của tên này là gì. Cứ cẩn thận vẫn hơn."
+#     "Tôi thật sự không muốn đứng chờ ở đây đâu, nhưng ai mà biết ý định của tên này là gì. Cứ cẩn thận vẫn hơn."
     
-    hide truc happy
-    show truc
+#     hide truc happy
+#     show truc
 
-    uk "Không sao đâu mà. Tui cũng không vội gì mà tui thấy bà có vẻ mệt với mồ hôi lắm á. 
-    Bà đang vội thì đứng trước đi, tui chờ thêm tí cũng được."
+#     uk "Không sao đâu mà. Tui cũng không vội gì mà tui thấy bà có vẻ mệt với mồ hôi lắm á. 
+#     Bà đang vội thì đứng trước đi, tui chờ thêm tí cũng được."
     
-    "Cái tên này có ý gì vậy nhỉ? "
+#     "Cái tên này có ý gì vậy nhỉ? "
     
-    "Tôi đã có ý từ chối anh ta vậy mà anh ta vẫn cố đẩy tôi lên. "
+#     "Tôi đã có ý từ chối anh ta vậy mà anh ta vẫn cố đẩy tôi lên. "
     
-    "Có thể tôi chỉ đang lo lắng thái quá, và thanh niên trước mặt tôi chỉ là có ý tốt mà thôi. "
+#     "Có thể tôi chỉ đang lo lắng thái quá, và thanh niên trước mặt tôi chỉ là có ý tốt mà thôi. "
 
-    menu:
-        "Chấp nhận lời đề nghị của anh thanh niên":
-            jump accept
+#     menu:
+#         "Chấp nhận lời đề nghị của anh thanh niên":
+#             jump accept
     
-label accept:
-    "Suy nghĩ một lúc ngắn, tôi chấp nhận lời đề nghị của tên thanh niên."
+# label accept:
+#     "Suy nghĩ một lúc ngắn, tôi chấp nhận lời đề nghị của tên thanh niên."
     
-    m "Uhm.... Cảm ơn ông."
+#     m "Uhm.... Cảm ơn ông."
     
-    "Tôi cảm ơn tên thanh niên và đổi chỗ."
+#     "Tôi cảm ơn tên thanh niên và đổi chỗ."
     
-    "Tên thanh niên vui vẻ cho tôi lên trước. Tôi đoán vẫn còn những người tốt bụng như tên này nhỉ."
+#     "Tên thanh niên vui vẻ cho tôi lên trước. Tôi đoán vẫn còn những người tốt bụng như tên này nhỉ."
     
-    "Tôi suy nghĩ chủ đề bắt chuyện, cũng chả có lí do gì sâu xa đâu, tôi chỉ nghĩ mình nên làm vậy mà thôi."
+#     "Tôi suy nghĩ chủ đề bắt chuyện, cũng chả có lí do gì sâu xa đâu, tôi chỉ nghĩ mình nên làm vậy mà thôi."
     
-    m "Mà hình như tên ông là cái gì Trung đúng không?"
+#     m "Mà hình như tên ông là cái gì Trung đúng không?"
     
-    uk "Đâu, tên tôi là Trực mà. Trung gì ở đây?"
+#     uk "Đâu, tên tôi là Trực mà. Trung gì ở đây?"
     
-    m "A, xin lỗi nha. Tại tui cũng hay quên á."
+#     m "A, xin lỗi nha. Tại tui cũng hay quên á."
     
-    t "Hahah. Không sao đâu."
+#     t "Hahah. Không sao đâu."
     
-    "Tôi không thật sự cảm thấy ngại gì khi không nhớ tên của anh chàng này. 
-    Đã bao giờ nói chuyện với nhau đâu mà đòi nhớ."
+#     "Tôi không thật sự cảm thấy ngại gì khi không nhớ tên của anh chàng này. 
+#     Đã bao giờ nói chuyện với nhau đâu mà đòi nhớ."
     
-    "Nói chuyện chưa được bao lâu thì tôi cũng đến quầy thu ngân."
+#     "Nói chuyện chưa được bao lâu thì tôi cũng đến quầy thu ngân."
     
-    m "Cô ơi, cho con cái bánh bao."
+#     m "Cô ơi, cho con cái bánh bao."
     
-    "\"15 ngàn con.\""
+#     "\"15 ngàn con.\""
     
-    "Cô thu ngân lớn tuổi chỉ trả lời ngắn gọn với yêu cầu của tôi. 
-    Cũng hợp lí, hàng vẫn còn người mà."
+#     "Cô thu ngân lớn tuổi chỉ trả lời ngắn gọn với yêu cầu của tôi. 
+#     Cũng hợp lí, hàng vẫn còn người mà."
     
-    "Tôi đưa tiền và nhận bánh bao."
+#     "Tôi đưa tiền và nhận bánh bao."
     
-    m "Tui lên lớp trước nha."
+#     m "Tui lên lớp trước nha."
     
-    "Tôi quay lại nói về hướng tên thanh niên."
+#     "Tôi quay lại nói về hướng tên thanh niên."
     
-    t "Ừ bà lên trước đi."
+#     t "Ừ bà lên trước đi."
     
-    hide truc
+#     hide truc
 
-    "Tên này nãy giỡ cứ hí hửng mãi. Tôi chả có cảm nghĩ gì sâu xa về anh ta. 
-    Nhưng cuộc nói chuyện cũng không hẳn là buồn chán, không hiểu sao tôi cũng thấy tinh thần mình phấn chấn hơn hẳn. "
+#     "Tên này nãy giỡ cứ hí hửng mãi. Tôi chả có cảm nghĩ gì sâu xa về anh ta. 
+#     Nhưng cuộc nói chuyện cũng không hẳn là buồn chán, không hiểu sao tôi cũng thấy tinh thần mình phấn chấn hơn hẳn. "
     
-    "Tôi không tin lắm vào tình yêu, dù bản thân tôi rất mê phim Hàn." 
-    "Nó hài hước, nó có phần thực tế, nó thú vị và diễn viên nào cũng đẹp cả." 
-    "Không có gì để chê những bộ phim như vậy. Vấn đề duy nhất là tôi không còn tin vào nó như trước đây nữa. "
+#     "Tôi không tin lắm vào tình yêu, dù bản thân tôi rất mê phim Hàn." 
+#     "Nó hài hước, nó có phần thực tế, nó thú vị và diễn viên nào cũng đẹp cả." 
+#     "Không có gì để chê những bộ phim như vậy. Vấn đề duy nhất là tôi không còn tin vào nó như trước đây nữa. "
     
-    "Phim ảnh, truyện tranh hay bất kì phương tiện truyền thông nào 
-    cũng không thật bằng cuộc sống hằng ngày và cuộc sống hằng ngày thì đầy thứ khổ sở và buồn chán." 
-    "Tôi phải luôn cố gắng và phải luôn tự lập. Tôi không được dựa dẫm quá nhiều vào ai." 
-    "Tình yêu và tình bạn chân thành chỉ xuất hiện trên phim ảnh mà thôi. "
-    "Người tới với nhau vì lợi ích và tôi cần phải là người hữu dụng. Đó là thực tế mà tôi chấp nhận."
+#     "Phim ảnh, truyện tranh hay bất kì phương tiện truyền thông nào 
+#     cũng không thật bằng cuộc sống hằng ngày và cuộc sống hằng ngày thì đầy thứ khổ sở và buồn chán." 
+#     "Tôi phải luôn cố gắng và phải luôn tự lập. Tôi không được dựa dẫm quá nhiều vào ai." 
+#     "Tình yêu và tình bạn chân thành chỉ xuất hiện trên phim ảnh mà thôi. "
+#     "Người tới với nhau vì lợi ích và tôi cần phải là người hữu dụng. Đó là thực tế mà tôi chấp nhận."
     
-    "Người khác mà biết tôi nghĩ gì chắc sẽ nói tôi đang hơi tiêu cực quá." 
-    "Với tôi thì đây là cách lấy lại bình tĩnh cực kỳ hiệu quả." 
-    "Muốn kiểm soát cuộc đời bản thân thì trước tiên phải biết cách kiểm soát cảm xúc." 
-    "Chỉ với cái đầu lạnh thì tôi mới đưa ra lựa chọn sáng suốt mà thôi, và chỉ khi đưa ra được lựa chọn đúng 
-    tôi mới không phạm phải sai sót." 
-    "Đấy, suy nghĩ vậy cũng có cái tích cực mà, đâu phải tiêu cực hoàn toàn đâu."
+#     "Người khác mà biết tôi nghĩ gì chắc sẽ nói tôi đang hơi tiêu cực quá." 
+#     "Với tôi thì đây là cách lấy lại bình tĩnh cực kỳ hiệu quả." 
+#     "Muốn kiểm soát cuộc đời bản thân thì trước tiên phải biết cách kiểm soát cảm xúc." 
+#     "Chỉ với cái đầu lạnh thì tôi mới đưa ra lựa chọn sáng suốt mà thôi, và chỉ khi đưa ra được lựa chọn đúng 
+#     tôi mới không phạm phải sai sót." 
+#     "Đấy, suy nghĩ vậy cũng có cái tích cực mà, đâu phải tiêu cực hoàn toàn đâu."
 
     scene classroom with fade
     
@@ -348,6 +348,8 @@ label accept:
     uk "Chi! Ngồi đây nè mày!"
     
     "Tôi nhìn về hướng người vừa gọi tên tôi."
+    
+    show hong
     
     "Một cô gái trẻ, mặc quần tây và áo phông với ống tay ngắn, cả bộ đều một màu trắng. 
     Mái tóc hung của cô ấy xõa ra như tia nắng mặt trời. 
@@ -391,6 +393,8 @@ label accept:
     
     "Trong lúc tôi tập trung chỉ bài cho Hồng, căn phòng học yên tĩnh đã ồn ào từ lúc nào. "
     
+    hide hong 
+
     "Tôi lấy máy tính ra khỏi cặp để coi lại bài giảng, 
     đọc một số tin tức và xem các trang khách sạn hay nhà hàng đang tuyển dụng 
     để xem bản thân có thể ứng tuyển ở đâu. "
@@ -425,7 +429,9 @@ label accept:
     Chỉ khẽ vẫy tay rồi tiếp tục công việc cá nhân thôi. "
     
     "Tôi đoán anh ta cũng biết đọc tình hình đấy chứ."
-    
+
+    show hong 
+
     h "Mày chào ai dị?"
     
     "Hồng phát hiện hành động chào của tôi với Trực và bắt đầu nghi vấn."
@@ -437,14 +443,116 @@ label accept:
     h "Hmmm"
     
     "Hồng chỉ nhìn tôi mà không nói gì. "
+
+    hide hong 
     
     "Tôi cũng không nói gì thêm, chỉ tiếp tục di chuột, lướt màn hình máy tính."
     
     "Đúng lúc này, thầy vào lớp."
     
-    "[[Trong buổi học]"
+    "{i}Trong buổi học{/i}"
+    
     
     "Lớp học diễn ra bình thường mà không có bất kì sự kiện gì đặc biệt"
+    
+    "{i}Sau buổi học{/i}"
+    
+    "\"Vậy bài hôm nay kết thúc ở đây. Tuần sau mình sẽ thực hiện thuyết trình, 
+    coi như bài thi cuối kỳ và hoàn tất môn luôn. 
+    Vì bản chất là bài thi nên nó sẽ chiếm 80\% điểm trung bình, nếu điểm thấp thì cứ xác định học lại môn đi nhé. 
+    Giờ các em tự chọn nhóm rồi chủ đề đi. Làm xong thì đưa danh sách cho bạn lớp trưởng nhé. Giờ thầy đi có việc.\""
+    
+    "Thầy nhanh chóng thông báo về việc thi cử tuần sau và rời đi."
+    
+    "Cả lớp xôn xao trước thông báo của thầy. "
+    
+    "Đáng lẽ việc thông báo về hình thức thi hay cách chấm điểm nên được nói từ đầu học kỳ mới đúng. 
+    Điều này đúng là có nói, nhưng sau khi xét trình độ của lớp thì việc thi trắc nghiệm giấy không được khả quan. 
+    Thầy có vẻ đã chủ động đổi hình thức thi lại ở tuần học cuối cùng. 
+    Theo góc nhìn của tôi, quyết định của thầy cũng khá hợp lí, dù điều này có gây ngạc nhiên với nhiều thành viên trong lớp."
+    
+    "Nhưng bỏ qua chuyện đó, việc của tôi giờ là phải tìm nhóm làm chung. "
+    
+    "Tôi và Hồng có thể làm thành một nhóm. Nhưng tôi không tin vào khả năng của Hồng lắm, 
+    nếu được thì chọn nhóm có người giỏi sẽ đỡ hơn."
+    
+    show hong 
+
+    h "Chi, vậy mình làm một nhóm đi ha?"
+    
+    "Hồng nhìn tôi với sự mong đợi."
+    
+    "Làm gì bây giờ, tôi có nên tìm nhóm khác tốt hơn không hay làm cùng một nhóm với Hồng. "
+    
+    "Đây là bài thi cuối kỳ, không thể làm chơi chơi được. Nhưng từ chối thì lại mất tình cảm."
+    
+    "Trong lúc đang xem xét nên nói có hay không, từ đằng sau tôi, một bóng người tiến tới. "
+
+    show hong at left
+    
+    show truc at right 
+    
+    
+    t "Uhm Chi ơi, giờ nhóm tôi đang thiếu một thành viên á... Không biết bà đã chọn nhóm chưa?"
+    
+    "Trực đứng đối diện tôi và Hồng, yêu cầu tôi vào nhóm của cậu ta."
+    
+    "Tôi nhìn về phía nhóm của Trực, đang ngồi lướt điện thoại là lớp trưởng, 
+    người mà tôi biết là có thể đảm nhận đồ án này."
+    
+    h "Ê, ông là ai dị? Tự nhiên chui ra lấy Chi khỏi nhóm tôi là sao?"
+    
+    "Hồng nhìn về phía Trực mà lên giọng, cố ý đuổi anh ta đi."
+    
+    t "Ể... Bà có nhóm rồi à Chi?"
+    
+    "Trực thật thà nhìn tôi mà hỏi."
+    
+    m "Uhm... Tui chưa"
+    
+    t "Ồ vậy bà có muốn vào nhóm tui không?"
+    
+    "Tôi có hơi tò mò về ý định của Trực khi mời tôi vào nhóm, 
+    nhưng tôi đoán anh ta không có ý định gì xấu. 
+    Chắc do ấn tượng ban nãy ở căn tin vẫn còn hằn trong tâm trí tôi."
+    
+    "Vậy bây giờ tôi nên chọn ai đây?"
+    
+    "Một người tôi đã thân khá lâu nhưng khả năng hoàn thành đồ án là rất thấp. 
+    Hay một người tôi mới quen nhưng với khả năng làm đồ án cực kỳ khả quan."
+
+    menu:
+        "Chọn cùng nhóm với Trực":
+            jump choose_Truc
+        "Chọn cùng nhóm với Hồng":
+            jump choose_Hong
+label choose_Truc:
+                
+    "Sau khi suy nghĩ một lúc thì tôi đưa ra quyết định của mình."
+
+    m "Hmm, tui vào nhóm ông cũng được, nhưng...."
+
+    h "Ủa mày?"
+
+    "Hồng nhìn tôi với đôi mắt tò mò khó hiểu."
+
+    h "Mày không muốn vào nhóm tao à?"
+
+    m "Không phải là tao không muốn mà là tao muốn thử làm việc chung với nhiều người. 
+    Mày quen biết rộng thì vào làm nhóm khác cũng được mà."
+
+    "Tôi dùng lí lẽ nhất thời tôi nghĩ được mà biện hộ cho việc lựa chọn Trực thay vì Hồng, 
+    cố gắng không làm mất lòng cô."
+
+    h "Hmph."
+
+    "Hồng nhìn tôi với vẻ mặt khó chịu, như một đứa trẻ ăn vạ 
+    vì ba mẹ không chịu mua đồ chơi cho nó vậy."
+
+    return
+
+label choose_Hong:
+
 
     
 
