@@ -109,6 +109,19 @@ screen say(who, what):
                 text who id "who"
 
         text what id "what"
+    # window:
+    #     id "window"
+    #     has viewport
+    #     draggable True
+    #     scrollbars "vertical"
+    #     ymaximum style.say_window.yminimum xfill True yfill True
+    #     has vbox:
+    #         style "say_vbox"
+
+    #     if who is not None:
+    #         text who id "who"
+
+    #     text what id "what"
 
 
     ## If there's a side image, display it above the text. Do not display on the

@@ -1,22 +1,95 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While running game code:
-  File "game/script.rpy", line 452, in script
-    "\"Vậy bài hôm nay kết thúc ở đây. Tuần sau mình sẽ thực hiện thuyết trình,
-ValueError: unsupported format character '?' (0x111) at index 163
+While processing text tag {clear} in 'Tôi nhiều lần tự hỏi, nhưng rất tiếc tôi không phải mấy người học đô thị. Chuyên ngành tôi là quản trị khách sạn - nhà hàng. Ít nhất, tôi có thể an ủi bản thân là dù tôi có rớt đại học mà phải ra làm ngoài thì tôi chắc sẽ dễ tìm khách ở đây hơn là ở Sa Nam. {clear}'.:
+  File "game/script.rpy", line 134, in script
+    """
+  File "game/script.rpy", line 134, in script
+    """
+  File "renpy/common/00nvl_mode.rpy", line 381, in do_display
+    renpy.display_say(
+Exception: Unknown text tag 'clear'
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 452, in script
-    "\"Vậy bài hôm nay kết thúc ở đây. Tuần sau mình sẽ thực hiện thuyết trình,
+  File "D:\renpy-8.0.3-sdk\renpy\bootstrap.py", line 275, in bootstrap
+    renpy.main.main()
+  File "D:\renpy-8.0.3-sdk\renpy\main.py", line 670, in main
+    run(restart)
+  File "D:\renpy-8.0.3-sdk\renpy\main.py", line 144, in run
+    renpy.execution.run_context(True)
+  File "D:\renpy-8.0.3-sdk\renpy\execution.py", line 955, in run_context
+    context.run()
+  File "game/script.rpy", line 134, in script
+    """
+  File "/home/tom/ab/renpy-build-fix/tmp/install.linux-x86_64/lib/python3.9/site-packages/future/utils/__init__.py", line 444, in raise_
+  File "game/script.rpy", line 134, in script
+    """
   File "D:\renpy-8.0.3-sdk\renpy\ast.py", line 930, in execute
     renpy.exports.say(who, what, *args, **kwargs)
-  File "D:\renpy-8.0.3-sdk\renpy\exports.py", line 1463, in say
-    what = what % tag_quoting_dict
-ValueError: unsupported format character '?' (0x111) at index 163
+  File "D:\renpy-8.0.3-sdk\renpy\exports.py", line 1474, in say
+    who(what, *args, **kwargs)
+  File "D:\renpy-8.0.3-sdk\renpy\character.py", line 1352, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "renpy/common/00nvl_mode.rpy", line 381, in do_display
+    renpy.display_say(
+  File "D:\renpy-8.0.3-sdk\renpy\character.py", line 693, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "D:\renpy-8.0.3-sdk\renpy\ui.py", line 299, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "D:\renpy-8.0.3-sdk\renpy\display\core.py", line 3582, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "D:\renpy-8.0.3-sdk\renpy\display\core.py", line 4175, in interact_core
+    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
+  File "D:\renpy-8.0.3-sdk\renpy\display\core.py", line 2782, in draw_screen
+    surftree = renpy.display.render.render_screen(
+  File "render.pyx", line 492, in renpy.display.render.render_screen
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\renpy-8.0.3-sdk\renpy\display\layout.py", line 888, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\renpy-8.0.3-sdk\renpy\display\layout.py", line 888, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\renpy-8.0.3-sdk\renpy\display\layout.py", line 888, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\renpy-8.0.3-sdk\renpy\display\screen.py", line 731, in render
+    child = renpy.display.render.render(self.child, w, h, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\renpy-8.0.3-sdk\renpy\display\layout.py", line 888, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\renpy-8.0.3-sdk\renpy\display\layout.py", line 1338, in render
+    surf = render(child,
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\renpy-8.0.3-sdk\renpy\display\layout.py", line 1109, in render
+    surf = render(d, width - x, rh, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\renpy-8.0.3-sdk\renpy\display\layout.py", line 1338, in render
+    surf = render(child,
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\renpy-8.0.3-sdk\renpy\display\layout.py", line 888, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\renpy-8.0.3-sdk\renpy\text\text.py", line 2171, in render
+    virtual_layout = Layout(self, width, height, renders, drawable_res=False, size_only=True)
+  File "D:\renpy-8.0.3-sdk\renpy\text\text.py", line 629, in __init__
+    self.paragraphs = self.segment(text.tokens, style, renders, text)
+  File "D:\renpy-8.0.3-sdk\renpy\text\text.py", line 1289, in segment
+    raise Exception("Unknown text tag %r" % text)
+Exception: Unknown text tag 'clear'
 
 Windows-10-10.0.19045 AMD64
 Ren'Py 8.1.3.23091805
 Demo 1.0
-Sun Oct 22 19:06:03 2023
+Thu Nov  9 17:12:27 2023

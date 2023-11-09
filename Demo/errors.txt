@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 352: expected statement.
-    classroom with None
-              ^
+File "game/script.rpy", line 135: expected statement.
+    mnvl 
+         ^
 
 Ren'Py Version: Ren'Py 8.1.3.23091805
-Sun Oct 22 21:34:47 2023
+Thu Nov  9 16:35:34 2023
